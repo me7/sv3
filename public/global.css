@@ -13,6 +13,7 @@ html {
 }
 
 body {
+  margin: 0;
   color: #606c76;
   font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-size: 1.6em;
@@ -552,4 +553,32 @@ img {
 
 .float-right {
   float: right;
+}
+
+/* additional by me7 */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: #4499c1;
+}
+
+.navbar a {
+  color: #fff;
+  padding: 0.45rem;
+  margin: 0 0.25rem;
+}
+
+.navbar a:hover {
+  background-color: #fff;
+  color: #4499c1;
+}
+
+.navbar a.active {
+  background-color: #fff;
+  color: #4499c1;
 }
